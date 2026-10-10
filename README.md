@@ -1,26 +1,31 @@
 # DevCron ⏱️
 
-Cronômetro minimalista feito em HTML, CSS e JavaScript puro.
+Cronômetro minimalista com visual neon cyberpunk, criado para estudos de produtividade e treino de desenvolvimento Front-end.
 
-🔗 **Demo ao vivo:** https://rodrigo-sam.github.io/dev-cron/
+**🔗 Acesse aqui:** https://rodrigo-sam.github.io/dev-cron/
 
-### ✨ Funcionalidades
-- Start / Stop / Reset
-- Formato inteligente MM:SS e HH:MM:SS
-- Proteção contra duplo clique
-- Efeito neon e pulse no display
-- 100% responsivo
+![DevCron Icon](img/icon.png)
+
+### ✨ Features
+- Cronômetro com precisão de milissegundos
+- Design minimalista neon (Dark mode)
+- Funciona offline - PWA instalável no celular
+- Botões Iniciar, Pausar e Resetar
+- Totalmente responsivo
 
 ### 🚀 Tecnologias
 - HTML5
-- CSS3
+- CSS3 (Flexbox + Animações Neon)
 - JavaScript puro (Vanilla JS)
+- PWA - Manifest + Service Worker
 
-### 📂 Como usar
-1. Clone o repositório
-2. Abra o `index.html` no navegador
-
-Ou acesse direto pelo link do Pages.
+### 📱 Como instalar no celular
+1. Acesse https://rodrigo-sam.github.io/dev-cron/
+2. No Chrome, clique nos 3 pontinhos > **Instalar app**
+3. Pronto! Ícone DC na sua tela inicial.
 
 ### 👨‍💻 Autor
-Feito por Rodrigo Sam - [GitHub](https://github.com/rodrigo-sam)
+Feito por **Rodrigo Sam** - Primeiro projeto PWA publicado.
+
+---
+⭐ Se curtiu, deixa uma estrela no repositório!
