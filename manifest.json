@@ -1,0 +1,16 @@
+{
+  "name": "DevCron - Cronômetro Minimalista",
+  "short_name": "DevCron",
+  "description": "Cronômetro minimalista com efeito neon - HTML, CSS e JS puro",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#00ff88",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/109/109613.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
