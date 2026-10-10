@@ -1,0 +1,112 @@
+* {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+        background: #0f0f0f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .card {
+        position: relative;
+        background: #1a1a1a;
+        padding: 50px 80px;
+        border-radius: 20px;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+    }
+    
+    .logo {
+
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            text-shadow: 0 0 5px #00bfff;
+        }
+
+        50% {
+            transform: scale(1.05);
+            text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff;
+        }
+
+        100% {
+            transform: scale(1);
+            text-shadow: 0 0 5px #00bfff;
+        }
+    }
+
+    .dev {
+        color: #0aa6ee;
+        /* verde neon */
+    }
+
+    .cron {
+        color: #ffffff;
+        /* branco */
+    }
+
+    /* A LUZ QUE GIRA */
+    .card::before {
+        content: '';
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        top: -25%;
+        left: -25%;
+        background: conic-gradient(transparent, transparent, transparent, #0aa6ee);
+        animation: girar 3s linear infinite;
+        z-index: -2;
+    }
+
+    .card::after {
+        content: '';
+        position: absolute;
+        inset: 3px;
+        background: #1a1a1a;
+        border-radius: 18px;
+        z-index: -1;
+    }
+
+    @keyframes girar {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    h1 {
+        font-size: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    button {
+        background-color: #111111;
+        color: #00ffff;
+        border: 2px solid #00ffff;
+        padding: 8px 20px;
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    button:hover {
+        background-color: #00ffff;
+        color: #111111;
+        box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff, 0 0 45px #00ffff;
+    }
